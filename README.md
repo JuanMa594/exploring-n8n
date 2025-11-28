@@ -8,7 +8,7 @@ This means running n8n with a command like:
 
 ```bash
 docker run -it --rm -p 5678:5678 n8nio/n8n
-
+```
 **✔ Advantages**
 
 - Very quick and easy to run.
@@ -40,11 +40,12 @@ services:
       - ./n8n_data:/home/node/.n8n
     environment:
       - GENERIC_TIMEZONE=America/Bogota
-
+```
 
 Then you run:
 ```bash
 docker compose up -d
+```
 
 **✔ Advantages**
 
@@ -65,7 +66,7 @@ docker compose up -d
 👉 Using Docker Compose is the PRO option: stable, organized, and suitable for projects that will grow.
 
 
-##🏆 Which should YOU use?
+## 🏆Which should YOU use?
 
 If you plan to **seriously work with n8n** (automations, personal projects, complex scripts, integrations):
 
